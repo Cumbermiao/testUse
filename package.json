@@ -1,0 +1,39 @@
+{
+  "name": "testuse",
+  "version": "1.0.0",
+  "description": "前段api以及ui测试学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "jest": "jest test/demo.test.js",
+    "webdriver":"jest test/webdriven.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cumbermiao/testUse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cumbermiao/testUse/issues"
+  },
+  "homepage": "https://github.com/Cumbermiao/testUse#readme",
+  "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.1.0",
+    "mocha": "^5.2.0",
+    "mz": "^2.7.0",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "react": "^16.4.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
